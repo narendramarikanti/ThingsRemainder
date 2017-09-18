@@ -23,7 +23,7 @@ public class SplashScreen extends AppCompatActivity {
                     e.printStackTrace();
                 }
                 finally {
-                    Intent login=new Intent(SplashScreen.this,MainActivity.class);
+                    Intent login=new Intent(SplashScreen.this,LoginActivity.class);
                     startActivity(login);
                     overridePendingTransition(R.anim.anim_slide_in_left,R.anim.anim_slide_out_left);
                     finish();
